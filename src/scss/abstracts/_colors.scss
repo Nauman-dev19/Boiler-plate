@@ -1,0 +1,33 @@
+$color-primary: #3498db;
+$color-secondary: #2ecc71;
+
+$color-accent: #e74c3c;
+$color-background: #ecf0f1;
+$color-text: #2c3e50;
+$color-border: #bdc3c7;
+
+// ====================================================================
+// PALETTE 4: DEEP OCEAN CALM (Blue-Focused, Clean, Reliable)
+// Added for a dedicated smooth bluish theme.
+// ====================================================================
+
+// Background/Base Colors
+$color-light-cloud: #e8f0f7; // Very pale, cool off-white.
+$color-navy-text: #273449; // Deep, serious blue for text (replaces black).
+$color-soft-silver: #a8b8c8; // Muted blue-gray for subtle borders or secondary text.
+
+// Primary Accent
+$color-calm-indigo: #4d7e9d; // A muted, yet deep primary blue for key components.
+$color-bright-pop: #f7a853; // A vibrant, complementary orange/yellow for high-impact CTAs.
+
+// --- Base Definitions (Ready to use in standard.scss) ---
+// Define the preferred palette for easy use in other files.
+// Switched to DEEP OCEAN CALM (Palette 4)
+$primary-bg: $color-light-cloud;
+$primary-text: $color-navy-text;
+$primary-accent: $color-bright-pop; // Using the contrasting orange for maximum visibility on CTAs
+$border-color: $color-soft-silver;
+// Helper variables for using in base/standard.scss
+$neutral-white: #ffffff;
+$neutral-black: #000000;
+$transparent: transparent;

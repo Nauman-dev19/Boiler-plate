@@ -1,0 +1,9 @@
+@use '../abstracts' as *;
+.btn {
+	padding: calculate-rem(10) calculate-rem(20);
+	font-size: $font-size;
+	border-radius: $border-radius;
+	background-color: $primary-bg;
+	color: $primary-text;
+	box-shadow: $box-shadow;
+}
